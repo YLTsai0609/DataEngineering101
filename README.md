@@ -1,11 +1,12 @@
 # What is it?
 
-* a sub-folder of [DataScience101](https://github.com/YLTsai0609/DataScience101) which is a personal note to be a better machine learning engineer
+* A sub-folder of [DataScience101](https://github.com/YLTsai0609/DataScience101) which is a personal note to be a better machine learning engineer.
 
-* continously updating.
+* `15+` notes so far, continously updating.
 
 
-## Course & Introduction 
+
+# Course & Introduction 
 
 [martials](de_martials.md)
 
@@ -13,6 +14,11 @@
 
 [data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
 
+# Theorem and it's application
+
+[Lambda and Kappa Architecture](lambda_kappa.md)
+
+[CAP theorem](cap.md)
 
 # Google Cloud Platform
 
