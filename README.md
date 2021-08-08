@@ -5,7 +5,6 @@
 * `15+` notes so far, continously updating.
 
 
-
 # Course & Introduction 
 
 [martials](de_martials.md)
@@ -14,7 +13,12 @@
 
 [data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
 
-# Theorem and it's application
+# Theorem
+
+## Designing Data-Intensive Applications
+
+[Chp1 可靠、可擴展與可維護的資料系統](ddia_chp1.md)
+## Posts
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
 
@@ -47,7 +51,7 @@
 
 [LSH open source survey](lsh_open_source.md)
 
-## DataBase and SQL
+# DataBase and SQL
 
 [MySQL install and python connector](mysql_install_python_connector.md)
 
