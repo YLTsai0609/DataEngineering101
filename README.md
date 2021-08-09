@@ -51,7 +51,8 @@
 
 [LSH open source survey](lsh_open_source.md)
 
-# DataBase and SQL
+# Database
+## RDB
 
 [MySQL install and python connector](mysql_install_python_connector.md)
 
@@ -60,3 +61,14 @@
 [Basic sql injection](sql_injection_intro.md)
 
 [sql hint](sql_hint.md)
+
+[sql 101](https://github.com/YLTsai0609/SQL_for_Business_analytics)
+
+## NoSQL
+
+[elastic search 101](https://github.com/YLTsai0609/elastic_search_cheatsheet)
+
+# Work Scheduling
+
+[airflow 101](https://github.com/YLTsai0609/airflow_101)
+
