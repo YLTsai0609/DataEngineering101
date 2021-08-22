@@ -18,6 +18,11 @@
 ## Designing Data-Intensive Applications
 
 [Chp1 可靠、可擴展與可維護的資料系統](ddia_chp1.md)
+
+[Chp2 資料模型與查詢語言](ddia_chp2.md)
+
+[Chp3 資料儲存與檢索](ddia_chp3.md)
+
 ## Posts
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
