@@ -32,7 +32,18 @@ NAME     IS_ACTIVE  ACCOUNT            PROJECT              COMPUTE_DEFAULT_ZONE
 default  False      joetsai@pixnet.tw  pixnet-gt
 lab      True       joetsai@pixnet.tw  pixnet-research-lab
 ```
+## auth
 
+`gcloud auth list`
+
+```
+ACTIVE  ACCOUNT
+        279150585509-compute@developer.gserviceaccount.com
+*       joetsai@pixnet.tw
+
+To set the active account, run:
+    $ gcloud config set account `ACCOUNT`
+```
 # handy commands
 
 ## gcs
@@ -71,3 +82,18 @@ https://cloud.google.com/bigquery/docs/managing-partitioned-table-data#append-ov
 |`bq mk bq_load_codelab`|make a dataset in your project|
 |`bq show bq_load_codelab`| viewing the dataset's properties|
 |`bq load --source_format=CSV ...`|upload csv data to bigquery|
+
+# GCE
+
+command example|usage|note
+-----|-----|-----
+`gcloud beta compute ssh --zone "asia-east1" "researh-hulk" --project "pixnet-gt"`|ssh into compute machine|google will create your account
+
+備註 : 無Domain Name時，使用外部ip連線
+e.g. ssh user_name@machine_name
+
+https://console.cloud.google.com/compute/instancesDetail/zones/asia-east1-b/instances/joe-lab?authuser=3&hl=zh-TW&project=pixnet-gt&rif_reserved
+
+
+`gcloud compute`, `gcloud alpha compute`, `gcloud beta compute`
+
