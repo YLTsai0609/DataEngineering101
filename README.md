@@ -43,8 +43,9 @@
 
 [Google Kubernetes Getting Start](gke_getting_start.md)
 
-# Distributed Computing
+[GCP Machine](gcp_machine.md)
 
+# Distributed Computing
 
 [Spark - installation](spark.md)
 
