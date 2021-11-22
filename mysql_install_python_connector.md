@@ -66,3 +66,7 @@ Usage: mysql.server  {start|stop|restart|reload|force-reload|status}  [ MySQL se
 [anaconda page](https://anaconda.org/anaconda/pymysql)
 
 [explore mysql via command line, pymysql, and sqlalchemy](https://github.com/YLTsai0609/database_eplore/blob/master/mysql_exp/using_pymysql.py)
+
+# Command line client
+
+[mycli](https://github.com/dbcli/mycli)

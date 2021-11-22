@@ -29,6 +29,8 @@
 
 [CAP theorem](cap.md)
 
+[Idempotency](idempotency.md)
+
 # Google Cloud Platform
 
 [GCP command](gcp_command.md)
