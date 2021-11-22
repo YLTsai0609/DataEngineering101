@@ -31,6 +31,12 @@
 
 [Idempotency](idempotency.md)
 
+[data pipeline design patterns I - mirroring](mirroring.md)
+
+[data pipeline design patterns II - partition mirroring](partial_mirroring.md)
+
+[data pipeline design patterns II - accumulated mirroring](accumulated_mirroring.md)
+
 # Google Cloud Platform
 
 [GCP command](gcp_command.md)
