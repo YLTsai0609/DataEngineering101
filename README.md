@@ -2,8 +2,7 @@
 
 * A sub-folder of [DataScience101](https://github.com/YLTsai0609/DataScience101) which is a personal note to be a better machine learning engineer.
 
-* `15+` notes so far, continously updating.
-
+* `20+` notes so far, continously updating.
 
 # Course & Introduction 
 
@@ -29,13 +28,21 @@
 
 [CAP theorem](cap.md)
 
-[Idempotency](idempotency.md)
+[data piepline 101 - IV - pipeline design - functionality](functionality.md)
+
+[data piepline 101 - V - Idempotency](idempotency.md)
+
+[data piepline 101 - VI - Guard](guard.md)
 
 [data pipeline design patterns I - mirroring](mirroring.md)
 
 [data pipeline design patterns II - partition mirroring](partial_mirroring.md)
 
 [data pipeline design patterns II - accumulated mirroring](accumulated_mirroring.md)
+
+[schema-changable system](schema_change.md)
+
+[data cleaning for traffic analysis](dc.md)
 
 # Google Cloud Platform
 
