@@ -22,11 +22,20 @@
 
 [Chp3 資料儲存與檢索](ddia_chp3.md)
 
-## Posts
+## Database Fundamental
+
+[CAP theorem](cap.md)
+
+[datawarehouse vs database](dw.md)
+
+[Dimentional Modeling](dm.md)
+
+## Data Processing
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
 
-[CAP theorem](cap.md)
+## Pipeline Management
+
 
 [data piepline 101 - IV - pipeline design - functionality](functionality.md)
 
