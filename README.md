@@ -26,7 +26,7 @@
 
 [CAP theorem](cap.md)
 
-[datawarehouse vs database](dw.md)
+[OLTP vs OLAP (database vs data warehouse)](dw.md)
 
 [Dimentional Modeling](dm.md)
 
@@ -34,8 +34,15 @@
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
 
-## Pipeline Management
+### Batch (distributed)
 
+[Spark - installation](spark.md)
+
+[pyspark 101](https://github.com/YLTsai0609/pyspark_101)
+
+[RAPIDS for spark](rapids_spark.md)
+
+## Pipeline Management
 
 [data piepline 101 - IV - pipeline design - functionality](functionality.md)
 
@@ -69,20 +76,11 @@
 
 [GCP Machine](gcp_machine.md)
 
-# Distributed Computing
-
-[Spark - installation](spark.md)
-
-[pyspark 101](https://github.com/YLTsai0609/pyspark_101)
-
-[RAPIDS for spark](rapids_spark.md)
-
 # BigData Algorithm
 
 [LSH open source survey](lsh_open_source.md)
 
-# Database
-## RDB
+# Relational databases
 
 [MySQL install and python connector](mysql_install_python_connector.md)
 
@@ -94,11 +92,13 @@
 
 [sql 101](https://github.com/YLTsai0609/SQL_for_Business_analytics)
 
-## NoSQL
+# Non-relational databases
+
+## Document
 
 [elastic search 101](https://github.com/YLTsai0609/elastic_search_cheatsheet)
 
-# Work Scheduling
+# Workflow Scheduling
 
 [airflow 101](https://github.com/YLTsai0609/airflow_101)
 
