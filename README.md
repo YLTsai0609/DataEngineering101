@@ -30,6 +30,7 @@
 
 [Dimentional Modeling](dm.md)
 
+[date warehouse, datalake, and other buzzyword](dw_dl.md)
 ## Data Processing
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
