@@ -1,6 +1,6 @@
 # CAP theorem
 
-在理論計算機科學中，CAP定理(CAP theorem)又稱被圍布魯爾定理(Brewer's theorem) : 
+在理論計算機科學中，CAP定理(CAP theorem)又稱作圍布魯爾定理(Brewer's theorem) : 
 
 對於一個分散式計算系統，不可能同時滿足以下三點
 
@@ -46,6 +46,9 @@
 
 
 現實中更常發生的是，系統確定是有分區的，因此一致性和可得性必須選一個
+
+# Ref
+
 
 [CAP定理](https://zh.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86)
 
