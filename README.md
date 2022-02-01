@@ -10,6 +10,9 @@
 
 [Note of CS246 Mining Massive Datasets](https://github.com/YLTsai0609/cs246_mining_massive_datasets)
 
+[Note of CS329S Machine Learning System Design (?)](https://github.com/YLTsai0609/CS239S_ML_System_Design.git)
+
+
 [data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
 
 # Theorem
