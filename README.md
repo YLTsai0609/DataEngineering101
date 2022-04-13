@@ -10,6 +10,9 @@
 
 [Note of CS246 Mining Massive Datasets](https://github.com/YLTsai0609/cs246_mining_massive_datasets)
 
+[Note of CS329S Machine Learning System Design (?)](https://github.com/YLTsai0609/CS239S_ML_System_Design.git)
+
+
 [data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
 
 # Theorem
@@ -22,11 +25,28 @@
 
 [Chp3 資料儲存與檢索](ddia_chp3.md)
 
-## Posts
+## Database Fundamental
+
+[CAP theorem](cap.md)
+
+[OLTP vs OLAP (database vs data warehouse)](dw.md)
+
+[Dimentional Modeling](dm.md)
+
+[date warehouse, datalake, and other buzzyword](dw_dl.md)
+## Data Processing
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
 
-[CAP theorem](cap.md)
+### Batch (distributed)
+
+[Spark - installation](spark.md)
+
+[pyspark 101](https://github.com/YLTsai0609/pyspark_101)
+
+[RAPIDS for spark](rapids_spark.md)
+
+## Pipeline Management
 
 [data piepline 101 - IV - pipeline design - functionality](functionality.md)
 
@@ -60,20 +80,11 @@
 
 [GCP Machine](gcp_machine.md)
 
-# Distributed Computing
-
-[Spark - installation](spark.md)
-
-[pyspark 101](https://github.com/YLTsai0609/pyspark_101)
-
-[RAPIDS for spark](rapids_spark.md)
-
 # BigData Algorithm
 
 [LSH open source survey](lsh_open_source.md)
 
-# Database
-## RDB
+# Relational databases
 
 [MySQL install and python connector](mysql_install_python_connector.md)
 
@@ -85,11 +96,13 @@
 
 [sql 101](https://github.com/YLTsai0609/SQL_for_Business_analytics)
 
-## NoSQL
+# Non-relational databases
+
+## Document
 
 [elastic search 101](https://github.com/YLTsai0609/elastic_search_cheatsheet)
 
-# Work Scheduling
+# Workflow Scheduling
 
 [airflow 101](https://github.com/YLTsai0609/airflow_101)
 
