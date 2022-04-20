@@ -108,7 +108,9 @@
 
 # Crawler
 
-## API
+## Web Analysis
+
+[web analysis hits](web_hints.md)
 
 [GraphQL](graphql.md)
 
