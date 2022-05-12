@@ -78,7 +78,7 @@
 
 [Google Kubernetes Getting Start](gke_getting_start.md)
 
-[GCP Machine](gcp_machine.md)
+[Google Compute Engine - GCE](gcp_machine.md)
 
 # BigData Algorithm
 
