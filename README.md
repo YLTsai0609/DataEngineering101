@@ -108,9 +108,15 @@
 
 # Crawler
 
+## Coding stuff
+
+[python crawler packages](py_crawler.md)
+
 ## Web Analysis
 
 [web analysis hits](web_hints.md)
+
+[HTML Tags](html.md)
 
 [GraphQL](graphql.md)
 
