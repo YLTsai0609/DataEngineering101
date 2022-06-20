@@ -120,4 +120,7 @@
 
 [GraphQL](graphql.md)
 
+# Cache
+
+[Introduction](cache_intro.md)
 
