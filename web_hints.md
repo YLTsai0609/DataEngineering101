@@ -20,5 +20,3 @@
    * landing 後將 event 清空 
    * 透過手機版下拉、找到 endpoint，看 response 之後確認資料
    * GraphQL 是另一種直接從前端 query 拉取到資料的方式(通常需要後端架構的配合)
-    
-
