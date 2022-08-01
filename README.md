@@ -80,6 +80,8 @@
 
 [Google Compute Engine - GCE](gcp_machine.md)
 
+[VPC](google_vpc.md)
+
 # BigData Algorithm
 
 [LSH open source survey](lsh_open_source.md)
