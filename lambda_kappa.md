@@ -10,7 +10,7 @@ Feature Store 是一種設計模式，主要是建立一個抽象層，在Data W
 
 Feature Store 這個設計模式率先處理了這類的問題
 
-而 `feast` 其實就是這個設計理念的其中一種實作，這個概念其實被稱作 `lambda architecture`
+而 `feast` 其實就是這個設計理念的其中一種實作(整合 schema)，這個概念其實被稱作 `lambda architecture` (?)
 
 # Lambda Architecture
 
@@ -72,3 +72,18 @@ perform both real-time and batch processing, **with single technology stack.**
 <img src='assets/lambda_5.png'></img>
 
 lead tech : Kafka
+
+# 比較 (To be reviewed)
+
+arct|pros|cons
+-----|-----|-----
+lambda|架構簡單|speed, batch layer 難以保持一致結果
+lambda|良好結合 batch processing, streamming processing 的優點|要維護兩套|
+lambda|離線資料易於修正||
+kappa|speed layer|強依賴於對中間物件緩存能力|
+kappa|event 可以重放|可能丟掉數據?|
+lambda|無需合併 offline 數據||
+
+
+[ref](https://acrofrank-b.github.io/post/lambda-jia-gou-vs-kappa-jia-gou/)
+
