@@ -268,3 +268,5 @@ StackDriver 現在 應該是改名成了 Cloud Monitor
 # Additional 
 
 [K8s introduction](https://blog.ewocker.com/intro-to-k8s/?fbclid=IwAR0xUUyO6gfTpdXkxijwijl8n-rM1gU-TFJFQyvL7_TGFoYMrMK9-K4NZAA)
+
+[Day 1 - 淺談 Kubernetes 與架構](https://ithelp.ithome.com.tw/m/articles/10202135?fbclid=IwAR0R-3H3VtCFkQmQgpqLBS7_x3XM4Plw3jWYzQd1DpIXq0XqGJvZIcnNwQs)

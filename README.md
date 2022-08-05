@@ -82,7 +82,9 @@
 
 [Google Kubernetes Getting Start](gke_getting_start.md)
 
-[GCP Machine](gcp_machine.md)
+[Google Compute Engine - GCE](gcp_machine.md)
+
+[VPC](google_vpc.md)
 
 # BigData Algorithm
 
@@ -110,4 +112,21 @@
 
 [airflow 101](https://github.com/YLTsai0609/airflow_101)
 
+# Crawler
+
+## Coding stuff
+
+[python crawler packages](py_crawler.md)
+
+## Web Analysis
+
+[web analysis hits](web_hints.md)
+
+[HTML Tags](html.md)
+
+[GraphQL](graphql.md)
+
+# Cache
+
+[Introduction](cache_intro.md)
 
