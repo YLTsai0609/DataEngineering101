@@ -90,6 +90,8 @@
 
 [LSH open source survey](lsh_open_source.md)
 
+[join](join_algorithm.md)
+
 # Relational databases
 
 [MySQL install and python connector](mysql_install_python_connector.md)
