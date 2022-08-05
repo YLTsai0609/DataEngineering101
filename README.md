@@ -12,7 +12,6 @@
 
 [Note of CS329S Machine Learning System Design (?)](https://github.com/YLTsai0609/CS239S_ML_System_Design.git)
 
-
 [data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
 
 # Theorem
@@ -34,6 +33,7 @@
 [Dimentional Modeling](dm.md)
 
 [date warehouse, datalake, and other buzzyword](dw_dl.md)
+
 ## Data Processing
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
@@ -45,6 +45,10 @@
 [pyspark 101](https://github.com/YLTsai0609/pyspark_101)
 
 [RAPIDS for spark](rapids_spark.md)
+
+### Streamming (distributied)
+
+[streamming framework survey](stream_survey.md)
 
 ## Pipeline Management
 
@@ -105,4 +109,5 @@
 # Workflow Scheduling
 
 [airflow 101](https://github.com/YLTsai0609/airflow_101)
+
 
