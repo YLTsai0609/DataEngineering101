@@ -6,13 +6,33 @@
 
 # Course & Introduction 
 
-[martials](de_martials.md)
+[data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
+
+
+[data engineer roadmap 2021](https://github.com/datastacktv/data-engineer-roadmap)
+
+[awesome data engineering tools](https://github.com/igorbarinov/awesome-data-engineering)
+
+## Books
+
+[Designing Data-Intensive Applications](https://www.books.com.tw/products/0010892828)
+
+## Hands On Course
+
+[hands on data engineering on gcp](https://github.com/DataTalksClub/data-engineering-zoomcamp)
+
+[google official data engineering course](https://www.coursera.org/specializations/gcp-data-machine-learning)
+
+[Datacomp - Data Engineer with Python](https://www.datacamp.com/tracks/data-engineer-with-python)
+
+## CSXXX
+
+[CS246 Mining Massive datasets - Notes](https://github.com/YLTsai0609/cs246_mining_massive_datasets)
 
 [Note of CS246 Mining Massive Datasets](https://github.com/YLTsai0609/cs246_mining_massive_datasets)
 
 [Note of CS329S Machine Learning System Design](https://github.com/YLTsai0609/CS239S_ML_System_Design.git)
 
-[data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
 
 # Theorem
 
@@ -38,7 +58,7 @@
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
 
-### Batch (distributed)
+### Batch
 
 [Spark - installation](spark.md)
 
@@ -52,13 +72,15 @@
 
 ## Pipeline Management (ETL Management)
 
-[data pipeline design pattern III - etl ](etl_elt.md)
 
 [data pipeline design patterns I - mirroring](mirroring.md)
 
 [data pipeline design patterns II - partition mirroring](partial_mirroring.md)
 
 [data pipeline design patterns II - accumulated mirroring](accumulated_mirroring.md)
+
+[data pipeline design pattern III - etl](etl_elt.md)
+
 
 [data piepline 101 - IV - pipeline design - functionality](functionality.md)
 
