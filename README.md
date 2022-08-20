@@ -19,11 +19,13 @@
 
 ## Hands On Course
 
-[hands on data engineering on gcp](https://github.com/DataTalksClub/data-engineering-zoomcamp)
+[Youtube - hands on data engineering on gcp](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 
-[google official data engineering course](https://www.coursera.org/specializations/gcp-data-machine-learning)
+[Google - data engineering course](https://www.coursera.org/specializations/gcp-data-machine-learning)
 
 [Datacomp - Data Engineer with Python](https://www.datacamp.com/tracks/data-engineer-with-python)
+
+[udemy - Data Engineering on Google Cloud platform](https://www.udemy.com/course/data-engineering-on-google-cloud-platform/)
 
 ## CSXXX
 
