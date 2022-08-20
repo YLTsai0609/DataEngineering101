@@ -2,7 +2,7 @@
 
 * A sub-folder of [DataScience101](https://github.com/YLTsai0609/DataScience101) which is a personal note to be a better machine learning engineer.
 
-* `40+` notes so far, continously updating.
+* `50+` notes so far, continously updating.
 
 # Course & Introduction 
 
