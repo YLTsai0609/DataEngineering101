@@ -2,7 +2,7 @@
 
 * A sub-folder of [DataScience101](https://github.com/YLTsai0609/DataScience101) which is a personal note to be a better machine learning engineer.
 
-* `20+` notes so far, continously updating.
+* `40+` notes so far, continously updating.
 
 # Course & Introduction 
 
@@ -10,7 +10,7 @@
 
 [Note of CS246 Mining Massive Datasets](https://github.com/YLTsai0609/cs246_mining_massive_datasets)
 
-[Note of CS329S Machine Learning System Design (?)](https://github.com/YLTsai0609/CS239S_ML_System_Design.git)
+[Note of CS329S Machine Learning System Design](https://github.com/YLTsai0609/CS239S_ML_System_Design.git)
 
 [data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
 
@@ -46,17 +46,13 @@
 
 [RAPIDS for spark](rapids_spark.md)
 
-### Streamming (distributied)
+### Streaming
 
 [streamming framework survey](stream_survey.md)
 
-## Pipeline Management
+## Pipeline Management (ETL Management)
 
-[data piepline 101 - IV - pipeline design - functionality](functionality.md)
-
-[data piepline 101 - V - Idempotency](idempotency.md)
-
-[data piepline 101 - VI - Guard](guard.md)
+[data pipeline design pattern III - etl ](etl_elt.md)
 
 [data pipeline design patterns I - mirroring](mirroring.md)
 
@@ -64,9 +60,24 @@
 
 [data pipeline design patterns II - accumulated mirroring](accumulated_mirroring.md)
 
+[data piepline 101 - IV - pipeline design - functionality](functionality.md)
+
+[data piepline 101 - V - Idempotency](idempotency.md)
+
+[data piepline 101 - VI - Guard](guard.md)
+
+
+[data piepline 101 - VII - Checkpoint, Security, Accounts](dp_checkpoint.md)
+
+[data pipeline 101 - IIX - etl development](etldev.md)
+
 [schema-changable system](schema_change.md)
 
-[data cleaning for traffic analysis](dc.md)
+### Data Goverance
+
+[data goverance](dg.md)
+
+[metadata management](mm.md)
 
 # Google Cloud Platform
 
@@ -90,7 +101,7 @@
 
 [LSH open source survey](lsh_open_source.md)
 
-[join](join_algorithm.md)
+[join algorithm](join_algorithm.md)
 
 # Relational databases
 
@@ -109,6 +120,11 @@
 ## Document
 
 [elastic search 101](https://github.com/YLTsai0609/elastic_search_cheatsheet)
+
+## Graph
+
+## Key-Value
+## Wide Column
 
 # Workflow Scheduling
 
@@ -132,3 +148,6 @@
 
 [Introduction](cache_intro.md)
 
+# Data Parsing / Cleaning 101
+
+[data cleaning for traffic analysis](dc.md)
