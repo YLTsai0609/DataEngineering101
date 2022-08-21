@@ -37,7 +37,7 @@ leading tech : Hadoop, Snowflake, Redshift, BigQuery.
 
 ## Speed Layer
 
-speed layer processes data srtreams in `realtime` and without the requirements of fix-ups or completeness.
+speed layer processes data stream in `realtime` and without the requirements of fix-ups or completeness.
 
 This layer sacrifices `throughput` as it aims to minimize lantency by providing real-time views in the most recent data.
 

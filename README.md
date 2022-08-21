@@ -76,6 +76,10 @@
 
 [structured streaming introduction](struc.md)
 
+[case study - near realtime arct for recommender in LinkedIn](arct_linkedin.md)
+
+[realtime mvp for recommendation from Chip Huyen](realtime_mvp_i2i.md)
+
 ## Pipeline Management (ETL Management)
 
 
