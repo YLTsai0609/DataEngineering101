@@ -114,7 +114,7 @@ e.g. click on an article in the feed may be represented as
 }
 ```
 
-## Dresired Solution
+## Desired Solution
 
 <img src='./assets/arctl_3.png'></img>
 
