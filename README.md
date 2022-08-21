@@ -72,6 +72,10 @@
 
 [streamming framework survey](stream_survey.md)
 
+[spark streaming introduction](ssi.md)
+
+[structured streaming introduction](struc.md)
+
 ## Pipeline Management (ETL Management)
 
 
