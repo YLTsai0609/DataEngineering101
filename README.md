@@ -84,21 +84,19 @@
 ## Pipeline Management (ETL Management)
 
 
-[data pipeline design patterns I - mirroring](mirroring.md)
+[data piepline 101 - I - mirroring](mirroring.md)
 
-[data pipeline design patterns II - partition mirroring](partial_mirroring.md)
+[data piepline 101 -  II - partition mirroring](partial_mirroring.md)
 
-[data pipeline design patterns II - accumulated mirroring](accumulated_mirroring.md)
+[data piepline 101 -  II - accumulated mirroring](accumulated_mirroring.md)
 
-[data pipeline design pattern III - etl](etl_elt.md)
-
+[data piepline 101 -  III - etl, elt](etl_elt.md)
 
 [data piepline 101 - IV - pipeline design - functionality](functionality.md)
 
 [data piepline 101 - V - Idempotency](idempotency.md)
 
 [data piepline 101 - VI - Guard](guard.md)
-
 
 [data piepline 101 - VII - Checkpoint, Security, Accounts](dp_checkpoint.md)
 
