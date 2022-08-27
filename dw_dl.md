@@ -32,3 +32,100 @@
 將各個資料倉儲透過網路打通，並對外設計API，整個系統則被稱為一個資料中台
 
 資料中台如同資料倉儲、資料湖一樣，是一個概念，不是一個實體，需要各種技術去實現它
+
+# Data Mesh
+
+* terms
+  * data swamp (資料沼澤 --> 資料湖裡面都是爛東西)
+  * data silo (資料孤島、大家都有自己的資料倉儲、資料湖，沒辦法互通，組織越大越會出現)
+
+<img src='./assets/dwdl_1.png'><img>
+
+<img src='./assets/dwdl_2.png'><img>
+
+<img src='./assets/dwdl_3.png'><img>
+
+# Data Challenges in Trend Micro
+
+<img src='./assets/dwdl_4.png'><img>
+
+<img src='./assets/dwdl_5.png'><img>
+
+<img src='./assets/dwdl_6.png'><img>
+
+<img src='./assets/dwdl_7.png'><img>
+
+# Challenges in Data Lake
+
+<img src='./assets/dwdl_8.png'><img>
+
+<img src='./assets/dwdl_9.png'><img>
+
+<img src='./assets/dwdl_10.png'><img>
+
+<img src='./assets/dwdl_11.png'><img>
+
+# Data Mesh
+
+<img src='./assets/dwdl_12.png'><img>
+
+<img src='./assets/dwdl_13.png'><img>
+
+<img src='./assets/dwdl_14.png'><img>
+
+<img src='./assets/dwdl_15.png'><img>
+
+<img src='./assets/dwdl_16.png'><img>
+
+
+# Data Catalog
+
+<img src='./assets/dwdl_17.png'><img>
+
+<img src='./assets/dwdl_18.png'><img>
+
+<img src='./assets/dwdl_19.png'><img>
+
+
+# Third party solution
+
+
+<img src='./assets/dwdl_21.png'><img>
+
+<img src='./assets/dwdl_22.png'><img>
+
+<img src='./assets/dwdl_23.png'><img>
+
+<img src='./assets/dwdl_24.png'><img>
+
+<img src='./assets/dwdl_25.png'><img>
+
+<img src='./assets/dwdl_26.png'><img>
+
+
+# Data Mesh PoC
+
+<img src='./assets/dwdl_27.png'><img>
+
+<img src='./assets/dwdl_28.png'><img>
+
+# Take aways
+
+<img src='./assets/dwdl_29.png'><img>
+
+<img src='./assets/dwdl_30.png'><img>
+
+<img src='./assets/dwdl_31.png'><img>
+
+<img src='./assets/dwdl_32.png'><img>
+
+# Contact
+
+* 一個好的說法，請問在做是不是也有人在做 Data Mesh，我也想要和大家學習
+* 尋找有作 Data Mesh 的人，請他們 raise your hand.
+
+<img src='./assets/dwdl_33.png'><img>
+
+
+
+
