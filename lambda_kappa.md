@@ -82,7 +82,7 @@ lambda|良好結合 batch processing, streamming processing 的優點|要維護�
 lambda|離線資料易於修正||
 kappa|speed layer|強依賴於對中間物件緩存能力|
 kappa|event 可以重放|可能丟掉數據?|
-lambda|無需合併 offline 數據||
+kappa|無需合併 offline 數據||
 
 
 [ref](https://acrofrank-b.github.io/post/lambda-jia-gou-vs-kappa-jia-gou/)
