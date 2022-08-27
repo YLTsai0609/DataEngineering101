@@ -54,7 +54,8 @@
 
 [Dimentional Modeling](dm.md)
 
-[date warehouse, datalake, and other buzzyword](dw_dl.md)
+[date warehouse, datalake, datamesh and other buzzyword](dw_dl.md)
+
 
 ## Data Processing
 
