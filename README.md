@@ -71,6 +71,8 @@
 
 ### Streaming
 
+[data ingestion](di.md)
+
 [streamming framework survey](stream_survey.md)
 
 [spark streaming introduction](ssi.md)
