@@ -54,3 +54,20 @@ array：按照 JSON array 解析；
 hash：按照 JSON object 解析。
 ```
 
+### Plugin
+
+https://www.fluentd.org/plugins/all
+
+1. aws - s3
+3. gcp - pubsub
+2. es
+4. aws - ec2
+5. aws - es
+6. kafka
+7. gcp - gcs/gbq
+8. bigquery(stream insert)
+9. gcs
+10. slack
+11. rabbitmq
+12. mysql
+13. ... 100+
