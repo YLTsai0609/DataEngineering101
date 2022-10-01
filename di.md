@@ -71,3 +71,46 @@ https://www.fluentd.org/plugins/all
 11. rabbitmq
 12. mysql
 13. ... 100+
+
+
+# Arct
+
+* fluentd
+* GKE (fault tolerance, auto scaling)
+* setup customize fluentd docker images
+  * `docker pull fluent/fluentd:v1.14-debian`
+  * write your own dockerfile
+  * docker build images from dockerfile (the images should save in gcs or whatever your gcp can get it)
+* kubernetes environment
+  * create cluster on gcp
+    * set nodes
+    * set machine types
+    * set IAM
+    * set network
+    * set `kubctl` in your local machine / work station
+  * deploy fluentd on GCP
+    * deployment
+    * ingress & service
+  * 壓力測試
+  * In general
+    * loading balancer (assign log to machine)
+    * worker (data forwarding to destination)
+
+## How to use
+
+### GCS
+
+```
+curl -X POST -d 'json={"title":"板橋美食","url":"https://example.pixnet.net/blog/"}' http://abc.company/gcs.service_A
+```
+
+```
+gs://datalake/service_A/year=yyyy/month=mm/day=dd/slice-hh-mm-json.gz
+```
+
+### GBQ
+
+add schema in gcs://bq_schema first
+```
+curl -X POST -d 'json={"title":"板橋美食","url":"https://example.pixnet.net/blog/"}' http://abc.company/bq.example
+```
