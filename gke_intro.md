@@ -106,7 +106,7 @@ pod :
 
 一個 pod 中有多個 container
 
-為神魔這樣設計呢? 
+為啥這樣設計呢? 
 
 1. 因為許多container在應用場景中常常需要交換存取資料
 2. 許多container有一致的生命週期
@@ -270,3 +270,20 @@ StackDriver 現在 應該是改名成了 Cloud Monitor
 [K8s introduction](https://blog.ewocker.com/intro-to-k8s/?fbclid=IwAR0xUUyO6gfTpdXkxijwijl8n-rM1gU-TFJFQyvL7_TGFoYMrMK9-K4NZAA)
 
 [Day 1 - 淺談 Kubernetes 與架構](https://ithelp.ithome.com.tw/m/articles/10202135?fbclid=IwAR0R-3H3VtCFkQmQgpqLBS7_x3XM4Plw3jWYzQd1DpIXq0XqGJvZIcnNwQs)
+
+
+# Summary
+
+<img src='./assets/gke_44.jpeg'></img>
+
+<img src='./assets/gke_45.jpeg'></img>
+
+* write your own `Dockerfile`
+* build `Image` from `Dockerfile`, upload `Image` to `gcr` (google container registory)
+* deploy using - `deployment` functionality in `kubctl` (Kubernates)
+  * `kubectl apply -f your_deployment.yaml`
+* add a load balancer (for developement)
+  * `kubectl apply -f loadbalancer.yaml`
+* add a ingress
+  * `kubectl apply -f ingress.yaml` 
+    * some setting for domain name, security issue.

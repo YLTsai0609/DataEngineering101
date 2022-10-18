@@ -8,7 +8,6 @@
 
 [data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
 
-
 [data engineer roadmap 2021](https://github.com/datastacktv/data-engineer-roadmap)
 
 [awesome data engineering tools](https://github.com/igorbarinov/awesome-data-engineering)
@@ -85,7 +84,6 @@
 
 ## Pipeline Management (ETL Management)
 
-
 [data piepline 101 - I - mirroring](mirroring.md)
 
 [data piepline 101 -  II - partition mirroring](partial_mirroring.md)
@@ -132,7 +130,7 @@
 
 # BigData Algorithm
 
-[LSH open source survey](lsh_open_source.md)
+[lsh family](lsh_open_source.md)
 
 [join algorithm](join_algorithm.md)
 
