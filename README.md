@@ -104,7 +104,7 @@
 
 [schema-changable system](schema_change.md)
 
-### Data Goverance
+## Data Goverance
 
 [data goverance](dg.md)
 
@@ -182,3 +182,8 @@
 # Data Parsing / Cleaning 101
 
 [data cleaning for traffic analysis](dc.md)
+
+
+# Infra101
+
+[data science workstation](jupyterws.md)

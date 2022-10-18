@@ -272,6 +272,7 @@ StackDriver 現在 應該是改名成了 Cloud Monitor
 [Day 1 - 淺談 Kubernetes 與架構](https://ithelp.ithome.com.tw/m/articles/10202135?fbclid=IwAR0R-3H3VtCFkQmQgpqLBS7_x3XM4Plw3jWYzQd1DpIXq0XqGJvZIcnNwQs)
 
 
+<<<<<<< HEAD
 # Summary
 
 <img src='./assets/gke_44.jpeg'></img>
@@ -287,3 +288,5 @@ StackDriver 現在 應該是改名成了 Cloud Monitor
 * add a ingress
   * `kubectl apply -f ingress.yaml` 
     * some setting for domain name, security issue.
+=======
+>>>>>>> aeb52b2a2907ff25577d94bfdfc97f318e3af93a

@@ -87,7 +87,7 @@ https://cloud.google.com/bigquery/docs/managing-partitioned-table-data#append-ov
 
 command example|usage|note
 -----|-----|-----
-`gcloud beta compute ssh --zone "asia-east1" "researh-hulk" --project "pixnet-gt"`|ssh into compute machine|google will create your account
+`gcloud beta compute ssh --zone "asia-east1" "research-hulk" --project "pixnet-gt"`|ssh into compute machine|google will create your account
 
 備註 : 無Domain Name時，使用外部ip連線
 e.g. ssh user_name@machine_name
