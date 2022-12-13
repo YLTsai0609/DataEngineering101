@@ -179,6 +179,10 @@
 
 [Introduction](cache_intro.md)
 
+# CI/CD
+
+[Introduction & Circle CI](intro_circleci.md)
+
 # Data Parsing / Cleaning 101
 
 [data cleaning for traffic analysis](dc.md)
