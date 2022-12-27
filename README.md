@@ -179,6 +179,10 @@
 
 [Introduction](cache_intro.md)
 
+# Data Ingestion
+
+[sync tables from database](sync_tables.md)
+
 # CI/CD
 
 [Introduction & Circle CI](intro_circleci.md)
