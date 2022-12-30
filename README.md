@@ -124,7 +124,6 @@
 
 [Google Kubernetes Getting Start](gke_getting_start.md)
 
-[Google Compute Engine - GCE](gcp_machine.md)
 
 [VPC](google_vpc.md)
 
