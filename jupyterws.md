@@ -15,13 +15,13 @@
 
 [Install JupyterHub and JupyterLab from the ground up¶ Official](https://jupyterhub.readthedocs.io/en/1.2.1/installation-guide-hard.html)
 
-## 3.1.0
+## Install in system
 
-using conda to handle jupyterhub, npm, nodejs and proxy
-
-https://jupyterhub.readthedocs.io/en/3.1.0/quickstart.html
-
-* using `conda`
+* [follow the installation](https://jupyterhub.readthedocs.io/en/3.1.0/getting-started/config-basics.html#generate-a-default-config-file)
+  * ubuntu 18.04 automantically use python3.6
+  * please update pip from 9.x to 21.x to avoid `rust` XXX
+  * [install node 16 for ubuntu 18.04](https://github.com/nodesource/distributions#deb), or we cannot `npm install configurable-http-proxy`
+  * by defult we install jupyterhub == 2.3.1
 
 ### Trouble shooting
 
@@ -48,6 +48,37 @@ c.PAMAuthenticator.open_sessions = False
     - `sudo -u rhea python3 -c "import pamela, getpass; print(pamela.authenticate('$USER', getpass.getpass()))"`
     - a lot of error - still a mystery....
 
+# Docker Solution
+
+[official](https://hub.docker.com/r/jupyterhub/jupyterhub)
+* hub only, need to install jupyter 5+
+* ssl proxy
+* mounting volumes so that you can store data outside the hot system
+
+## Third-party Solution II (anaconda + systemd)
+
+https://stackoverflow.com/questions/50113995/how-to-run-jupyterhub-using-sudo-error-commad-not-found
+
+
+# Third-party Solution I (Deprecated)
+
+video : https://www.youtube.com/watch?v=KHvol5qN-dM
+
+tutorial on google : https://tljh.jupyter.org/en/latest/install/google.html
+
+github : https://github.com/jupyterhub/the-littlest-jupyterhub
+
+
+## add new user
+* admin add it in jupyterhub GUI
+  * users will crwate a folder as `/home/jupyter-username`
+  * need to link to its own folder
+* admin add it in linux useradd
+  * sudo useradd {{username}}
+  * sudo passwd {{username}}
+  * sudo ln -s /home/username /home/jupyter-username (create symbol link in /home/jupyter-username)
+
+
 ## jupyter extension
 
 1. https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
@@ -60,6 +91,8 @@ cmd : `jupyter contrib nbextension install --user`
 cmd : `jupyter nbextensions_configurator enable --user`
 * 開啟 UI
 
+- **SO FAR - not systemwise**
+- 
 ## Legacy
 
 0. [check root access](https://superuser.com/questions/553932/how-to-check-if-i-have-sudo-access)
