@@ -86,7 +86,6 @@
 
 ## Pipeline Management (ETL Management)
 
-
 [data piepline 101 - I - mirroring](mirroring.md)
 
 [data piepline 101 -  II - partition mirroring](partial_mirroring.md)
@@ -127,13 +126,12 @@
 
 [Google Kubernetes Getting Start](gke_getting_start.md)
 
-[Google Compute Engine - GCE](gcp_machine.md)
 
 [VPC](google_vpc.md)
 
 # BigData Algorithm
 
-[LSH open source survey](lsh_open_source.md)
+[lsh family](lsh_open_source.md)
 
 [join algorithm](join_algorithm.md)
 
@@ -181,6 +179,14 @@
 # Cache
 
 [Introduction](cache_intro.md)
+
+# Data Ingestion
+
+[sync tables from database](sync_tables.md)
+
+# CI/CD
+
+[Introduction & Circle CI](intro_circleci.md)
 
 # Data Parsing / Cleaning 101
 

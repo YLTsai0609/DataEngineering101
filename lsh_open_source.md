@@ -1,15 +1,16 @@
-# Ref
+# Goal
+
+1. recommendation
+2. 
+3. pyspark cosine-random projection implementation
+4. pyspark build-in lsh logic
+
+# Numpy 
 
 [Cosine - Random Projection Implementation](https://github.com/YLTsai0609/cs246_mining_massive_datasets/blob/main/implementation/lsh/jaccard_and_cosine.ipynb)
 
-# Goal
-
-1. Near-realtime recommendation
-2. pyspark cosine-random projection implementation
-3. pyspark build-in lsh logic
-
-
 # pyspark cosine-random projection LSH
+
 
 ## [cosine-lsh-join-spark star 160+
 ](https://github.com/soundcloud/cosine-lsh-join-spark)
@@ -67,3 +68,6 @@ Use this if you wanna server millions items.
 
 
 
+# Deduplicates without encoing to numpy array
+
+## [simhash, 800+ star](https://github.com/1e0ng/simhash)

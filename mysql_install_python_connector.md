@@ -69,4 +69,8 @@ Usage: mysql.server  {start|stop|restart|reload|force-reload|status}  [ MySQL se
 
 # Command line client
 
-[mycli](https://github.com/dbcli/mycli)
+* [mycli](https://github.com/dbcli/mycli)
+  * SHOW DATABASES
+  * SHOW TABLES
+  * QUERY...
+
