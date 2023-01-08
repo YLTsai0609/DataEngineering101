@@ -137,7 +137,7 @@ the process logic generally looks like the following
 #### Why choose [Point(for aggregation)](https://pinot.apache.org/)
 
 1. support near realtime ingestion of data from kafka.
-2. can answer analytical queries with low latency --> aloow computation of variety od feature from activity data in the store in less than 100ms.
+2. can answer analytical queries with low latency --> allow computation of variety od feature from activity data in the store in less than 100ms.
 3. horizontally scalable.
 4. support purging of old data.
 

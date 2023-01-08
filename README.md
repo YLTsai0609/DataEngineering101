@@ -1,6 +1,6 @@
 # What is it?
 
-* A sub-folder of [DataScience101](https://github.com/YLTsai0609/DataScience101) which is a personal note to be a better machine learning engineer.
+* A similar book like [DataScience101](https://github.com/YLTsai0609/DataScience101) which is a personal note to be a better machine learning engineer.
 
 * `50+` notes so far, continously updating.
 
@@ -8,10 +8,11 @@
 
 [data_engineering_brief_intro_by_google](data_engineering_describe_by_google.md)
 
-
 [data engineer roadmap 2021](https://github.com/datastacktv/data-engineer-roadmap)
 
 [awesome data engineering tools](https://github.com/igorbarinov/awesome-data-engineering)
+
+[Emerging Architectures for Modern Data Infrastructure 2022](infra.md)
 
 ## Books
 
