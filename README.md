@@ -106,6 +106,8 @@
 
 [schema-changable system](schema_change.md)
 
+[data modeling](data_model.md)
+
 ## Data Goverance
 
 [data goverance](dg.md)
