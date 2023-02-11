@@ -122,6 +122,8 @@
 
 [Google App Engine](gae.md)
 
+[PubSub](pubsub.md)
+
 [Google Kubernetes Engine Introduction](gke_intro.md)
 
 [Google Kubernetes Getting Start](gke_getting_start.md)
