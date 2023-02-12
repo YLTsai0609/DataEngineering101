@@ -48,3 +48,14 @@ or using python client : `python redis_py/redis_cache.py`
   * `redis/redis.conf` - databases 16 (可設定數量)
   * 不能設定不同 db 的密碼
   * flushall - 全數清空
+
+
+# Redis-cli
+
+command|means|note
+-----|-----|-----
+KEYS *|show all the keys||
+KEYS N*|pattern match N*||
+SELECT 15|select db no 15||
+redis-cli FLUSHALL|flush all data cross redisdatabase||
+redis-cli FLUSHDB|flush all data in specified redisdatabase||
