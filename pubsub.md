@@ -7,7 +7,7 @@
 * asynchronously
 * Producer --> Topic --> subscriber
 * Cloud Shell / client lib / RESTAPI
-* Pub/Sub occasionally `delivers a message more than once` to `ensure that all messages make it to a subscriber at least once.`
+* **At least once guarantee** - Pub/Sub occasionally `delivers a message more than once` to `ensure that all messages make it to a subscriber at least once.`
 
 create topic by : `gcloud pubsub topics create my-topic`
 create subscriptions and link topic by : `gcloud pubsub subscriptions create my-sub --topic my-topic`

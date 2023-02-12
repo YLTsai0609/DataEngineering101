@@ -159,6 +159,9 @@
 ## Graph
 
 ## Key-Value
+
+[redis 101](redis_py.md)
+
 ## Wide Column
 
 # Workflow Scheduling

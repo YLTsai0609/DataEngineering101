@@ -21,7 +21,6 @@
 
 # Embulk
 
-
 [embulk](https://www.embulk.org/)
 
 [embulk - github](https://github.com/embulk/embulk)
