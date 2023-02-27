@@ -8,6 +8,11 @@ https://cloudonair.withgoogle.com/events/taiwan-cloud-onboard-architecturemodern
 1. install docker runtime
 2. [install kubectl binary. - official](https://kubernetes.io/zh-cn/docs/tasks/tools/install-kubectl-linux/)
 
+NOTE:
+
+* 可以手動開也可以 command line 開
+* NodePool - 不同的 VM 屬性(例如需要 GPU)
+
 ## Create the Cluster
 
 * `gcloud container clusters create-auto hello-cluster \
@@ -106,11 +111,3 @@ USER nonroot:nonroot
 CMD ["/hello-app"]
 
 ```
-
-# TODO
-* deployment - deploying stateless applications
-* service - load balancing
-* pod
-* deployment
-* workload
-* cluster
