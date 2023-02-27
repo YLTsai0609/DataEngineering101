@@ -126,13 +126,13 @@
 
 [Google Kubernetes Engine Introduction](gke/gke_intro.md)
 
-[Google Kubernetes Getting Start](gke_getting_start.md)
+[Google Kubernetes Getting Start](gke/gke_management.md)
 
 [VPC](google_vpc.md)
 
 # Kubernates
 
-
+[Kubernetes for the Absolute Beginners - Hands-on](gke/Kubernetes%20for%20the%20Absolute%20Beginners%20-%20Hands-on/README.md)
 
 # BigData Algorithm
 
