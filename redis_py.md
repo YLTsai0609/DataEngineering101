@@ -59,3 +59,21 @@ KEYS N*|pattern match N*||
 SELECT 15|select db no 15||
 redis-cli FLUSHALL|flush all data cross redisdatabase||
 redis-cli FLUSHDB|flush all data in specified redisdatabase||
+
+
+## Trouble shooting
+
+1. redis key without expire-time, we wanna expire them.
+
+```python
+for key in redis.keys('*'):
+    if redis.ttl(key) == -1:
+        redis.expire(key, 60 * 60 * 24 * 7)
+        # This would clear them out in a week
+```
+
+ttl - time to live (in secs)
+
+2. set is slow
+
+* https://medium.com/gojekengineering/how-we-pushed-a-million-keys-to-redis-in-seconds-b99020e7cb0f

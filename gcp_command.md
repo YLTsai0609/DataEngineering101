@@ -12,7 +12,66 @@ https://cloud.google.com/storage/docs/gsutil_install
 
 [Google Cloud Shell 入門：gcloud & gsutil](https://titangene.github.io/article/getting-started-with-cloud-shell-gcloud-and-gsutil.html)
 
-# gcould
+# gcloud
+
+`gcloud components list`
+
+```
+Your current Google Cloud CLI version is: 419.0.0
+The latest available version is: 419.0.0
+
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                   Components                                                   │
+├───────────────┬──────────────────────────────────────────────────────┬──────────────────────────────┬──────────┤
+│     Status    │                         Name                         │              ID              │   Size   │
+├───────────────┼──────────────────────────────────────────────────────┼──────────────────────────────┼──────────┤
+│ Not Installed │ App Engine Go Extensions                             │ app-engine-go                │  4.2 MiB │
+│ Not Installed │ Appctl                                               │ appctl                       │ 21.0 MiB │
+│ Not Installed │ Artifact Registry Go Module Package Helper           │ package-go-module            │  < 1 MiB │
+│ Not Installed │ Cloud Bigtable Command Line Tool                     │ cbt                          │ 10.4 MiB │
+│ Not Installed │ Cloud Bigtable Emulator                              │ bigtable                     │  6.7 MiB │
+│ Not Installed │ Cloud Datastore Emulator                             │ cloud-datastore-emulator     │ 35.1 MiB │
+│ Not Installed │ Cloud Firestore Emulator                             │ cloud-firestore-emulator     │ 40.2 MiB │
+│ Not Installed │ Cloud Pub/Sub Emulator                               │ pubsub-emulator              │ 62.5 MiB │
+│ Not Installed │ Cloud Run Proxy                                      │ cloud-run-proxy              │  9.0 MiB │
+│ Not Installed │ Cloud SQL Proxy                                      │ cloud_sql_proxy              │  7.8 MiB │
+│ Not Installed │ Cloud Spanner Emulator                               │ cloud-spanner-emulator       │ 28.7 MiB │
+│ Not Installed │ Cloud Spanner Migration Tool                         │ harbourbridge                │ 22.3 MiB │
+│ Not Installed │ Google Container Registry's Docker credential helper │ docker-credential-gcr        │  1.8 MiB │
+│ Not Installed │ Kustomize                                            │ kustomize                    │  4.3 MiB │
+│ Not Installed │ Log Streaming                                        │ log-streaming                │ 13.9 MiB │
+│ Not Installed │ Nomos CLI                                            │ nomos                        │ 25.2 MiB │
+│ Not Installed │ On-Demand Scanning API extraction helper             │ local-extract                │ 13.9 MiB │
+│ Not Installed │ Terraform Tools                                      │ terraform-tools              │ 61.7 MiB │
+│ Not Installed │ anthos-auth                                          │ anthos-auth                  │ 20.4 MiB │
+│ Not Installed │ config-connector                                     │ config-connector             │ 56.7 MiB │
+│ Not Installed │ enterprise-certificate-proxy                         │ enterprise-certificate-proxy │  8.2 MiB │
+│ Not Installed │ gcloud app Java Extensions                           │ app-engine-java              │ 64.5 MiB │
+│ Not Installed │ gcloud app Python Extensions                         │ app-engine-python            │  8.6 MiB │
+│ Not Installed │ gcloud app Python Extensions (Extra Libraries)       │ app-engine-python-extras     │ 26.4 MiB │
+│ Not Installed │ gke-gcloud-auth-plugin                               │ gke-gcloud-auth-plugin       │  7.6 MiB │
+│ Not Installed │ kpt                                                  │ kpt                          │ 19.1 MiB │
+│ Not Installed │ kubectl                                              │ kubectl                      │  < 1 MiB │
+│ Not Installed │ kubectl-oidc                                         │ kubectl-oidc                 │ 20.4 MiB │
+│ Not Installed │ pkg                                                  │ pkg                          │          │
+│ Installed     │ BigQuery Command Line Tool                           │ bq                           │  1.6 MiB │
+│ Installed     │ Bundled Python 3.9                                   │ bundled-python3-unix         │ 63.4 MiB │
+│ Installed     │ Cloud Storage Command Line Tool                      │ gsutil                       │ 15.6 MiB │
+│ Installed     │ Google Cloud CLI Core Libraries                      │ core                         │ 26.6 MiB │
+│ Installed     │ Google Cloud CRC32C Hash Tool                        │ gcloud-crc32c                │  1.2 MiB │
+│ Installed     │ Minikube                                             │ minikube                     │ 33.1 MiB │
+│ Installed     │ Skaffold                                             │ skaffold                     │ 20.2 MiB │
+│ Installed     │ gcloud Alpha Commands                                │ alpha                        │  < 1 MiB │
+│ Installed     │ gcloud Beta Commands                                 │ beta                         │  < 1 MiB │
+└───────────────┴──────────────────────────────────────────────────────┴──────────────────────────────┴──────────┘
+To install or remove components at your current SDK version [419.0.0], run:
+  $ gcloud components install COMPONENT_ID
+  $ gcloud components remove COMPONENT_ID
+
+To update your SDK installation to the latest version [419.0.0], run:
+  $ gcloud components update
+
+```
 
 ## login
 可以透過gcloud auth login 進行帳號登入，接著就可以設定project
@@ -32,6 +91,10 @@ NAME     IS_ACTIVE  ACCOUNT            PROJECT              COMPUTE_DEFAULT_ZONE
 default  False      user-gmail  project-id
 lab      True       user-gmail  project-id
 ```
+
+## packages
+
+
 ## auth
 
 `gcloud auth list`
@@ -148,3 +211,13 @@ ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255]. See ht
 |`gcloud pubsub schemas list`|list schema in the project, can also validate topics, subscription||
 |`gcloud pubsub subscriptions list`|list subscriptions and the topic listen to||
 |`gcloud pubsub subscriptions describe topic_id or subscription_id`|describe the status, shcema, timeout about topic and subscription||
+
+# MemoryStore
+
+https://fig.io/manual/gcloud/redis/instances/import
+
+https://cloud.google.com/memorystore/docs/redis/import-data#before_you_begin
+
+https://console.cloud.google.com/bigquery?referrer=search&authuser=0&project=media17-1119&ws=!1m10!1m4!4m3!1smedia17-1119!2sMatomoDataSource!3sPNRecommendationItemContent!1m4!1m3!1smedia17-1119!2sbquxjob_68c4fe5c_1867f3081a5!3sUS
+
+.json -> .rdb -> MemoryStore
