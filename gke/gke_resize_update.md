@@ -3,13 +3,6 @@
 
 https://cloudonair.withgoogle.com/events/taiwan-cloud-onboard-architecturemodernization-2021
 
-# GKE Getting start
-
-[quick start](https://cloud.google.com/kubernetes-engine/docs/quickstart)
-
-
-* 可以手動開也可以 command line 開
-* NodePool - 不同的 VM 屬性(例如需要 GPU)
 
 ## CRUD
 

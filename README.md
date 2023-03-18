@@ -130,6 +130,8 @@
 
 [VPC](google_vpc.md)
 
+[IAM](gcp_iam.md)
+
 # Kubernates
 
 [Kubernetes for the Absolute Beginners - Hands-on](gke/Kubernetes%20for%20the%20Absolute%20Beginners%20-%20Hands-on/README.md)
