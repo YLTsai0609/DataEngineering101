@@ -204,7 +204,7 @@ ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255]. See ht
 ## GCE 靜態IP
 
 1. [設定靜態IP - 手動設定](https://ikala.cloud/gce-static-ip-address/)
-   * 也可以設定 DNS
+   * 也可以直接設定 DNS
 2. [靜態IP收費 - 0.02USD / hour](https://ephrain.net/gcp-google-cloud-platform-%E4%B8%8A%E7%9A%84%E9%9D%9C%E6%85%8B-ip-%E8%A2%AB%E6%94%B6%E8%B2%BB%E5%95%A6%EF%BC%81/)
 
 ## GCE 規格評估
@@ -237,6 +237,10 @@ e.g. 加大記憶體
 1. 需要停機
    1. 要注意網路設定是不是跑掉(domain name, ssl, ...) - 需調整成靜態 IP
    2. 可能需要重新掛載 SSD
+
+## VertexAI Trouble Shooting
+
+https://cloud.google.com/vertex-ai/docs/general/troubleshooting-workbench#gcloud
 
 
 # PubSub
