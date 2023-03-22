@@ -1,0 +1,14 @@
+# kubectl create -f 019_pod.yaml
+apiVersion: v1 # kubernates api version
+kind: Pod # Pod/Service/ReplicaSet/Deployment
+metadata: # to describe your Pod or Service or xxx
+  name: myapp-pod
+  labels:
+    app: myapp
+    tier: frontend # or database or something
+spec:
+  containers: # a list of container name and downlaod from which images
+    - name: nginx-container
+      image: nginx
+    # the warining is about we don't give the resource limits
+    # https://stackoverflow.com/questions/64080471/one-or-more-containers-do-not-have-resource-limits-warning-in-vs-code-kubernet
