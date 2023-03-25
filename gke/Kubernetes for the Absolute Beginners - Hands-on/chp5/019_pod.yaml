@@ -5,7 +5,7 @@ metadata: # to describe your Pod or Service or xxx
   name: myapp-pod
   labels:
     app: myapp
-    tier: frontend # or database or something
+    type: front-end # or database or something
 spec:
   containers: # a list of container name and downlaod from which images
     - name: nginx-container
