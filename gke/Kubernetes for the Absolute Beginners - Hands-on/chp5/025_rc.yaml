@@ -17,4 +17,7 @@ spec:
       containers:
         - name: nginx-container
           image: nginx
+          # to launch the service
+          # command:
+          # -
   replicas: 3
