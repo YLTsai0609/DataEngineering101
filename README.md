@@ -120,6 +120,8 @@
 
 [GCP data_lake_warehouse](gcp_data_lake_warehouse.md)
 
+[GCP BigQuery](gcp_bq.md)
+
 [GCP streamming](gcp_streamming.md)
 
 [Google App Engine](gae.md)
@@ -127,7 +129,6 @@
 [Google Kubernetes Engine Introduction](gke_intro.md)
 
 [Google Kubernetes Getting Start](gke_getting_start.md)
-
 
 [VPC](google_vpc.md)
 
