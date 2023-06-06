@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-deployment
+  labels:
+    type: frontend
+    app: nginx
+spec:
+  selector:
+    matchLabels:
+      # could match a kety value structure
+      type: front-end
+  replicas: 3
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+    spec:
+      containers:
+        - name: nginx-container
+          # image: nginx
+          image: nginx:1.18

@@ -92,3 +92,6 @@ target/
 .mypy_cache/
 
 
+*/.venv/*
+
+.*md

@@ -1,0 +1,6 @@
+# kubectl run redis --image=redis123 --dry-run -o yaml
+# kubectl run redis --image=redis123 --dry-run=client -o yaml > 024_redis.yaml
+# kubectl create -f 024_redis.yaml
+
+# kubectl run nginx --image=nginx --dry-run=client
+# --dry-run='none': Must be "none", "server", or "client". If client strategy, only print the object that would be sent, without sending it. If server strategy, submit server-side request without persisting the resource.

@@ -36,7 +36,6 @@
 
 [Note of CS329S Machine Learning System Design](https://github.com/YLTsai0609/CS239S_ML_System_Design.git)
 
-
 # Theorem
 
 ## Designing Data-Intensive Applications
@@ -56,7 +55,6 @@
 [Dimentional Modeling](dm.md)
 
 [date warehouse, datalake, datamesh and other buzzyword](dw_dl.md)
-
 
 ## Data Processing
 
@@ -134,6 +132,24 @@
 
 # BigData Algorithm
 
+[PubSub](pubsub.md)
+
+[Google Kubernetes Engine Introduction](gke/gke_intro.md)
+
+[Google Kubernetes Getting Start](gke/gke_management.md)
+
+[VPC](google_vpc.md)
+
+[IAM](gcp_iam.md)
+
+# Kubernates
+
+[Kubernetes for the Absolute Beginners - Hands-on](gke/Kubernetes%20for%20the%20Absolute%20Beginners%20-%20Hands-on/README.md)
+
+# BigData Algorithm
+
+[Storage](storage.md)
+
 [lsh family](lsh_open_source.md)
 
 [join algorithm](join_algorithm.md)
@@ -154,11 +170,14 @@
 
 ## Document
 
-[elastic search 101](https://github.com/YLTsai0609/elastic_search_cheatsheet)
+[ElasticSearch 101](https://github.com/YLTsai0609/elastic_search_cheatsheet)
 
 ## Graph
 
 ## Key-Value
+
+[redis 101](redis_py.md)
+
 ## Wide Column
 
 # Workflow Scheduling
@@ -183,9 +202,11 @@
 
 [Introduction](cache_intro.md)
 
-# Data Ingestion
+# Data Ingestion & Store
 
 [sync tables from database](sync_tables.md)
+
+[partitioning strategy](part_sta.md)
 
 # CI/CD
 

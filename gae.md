@@ -40,9 +40,9 @@ check your own gcp projects
 ```
 (base) joetsai@thor:~/work/yulong/gae-demo$ gcloud config list
 [core]
-account = joetsai@pixnet.tw
+account = gmail-account
 disable_usage_reporting = True
-project = pixnet-gt
+project = project-id
 
 Your active configuration is: [default]
 ```
@@ -63,15 +63,15 @@ gcloud app deploy --project=helloworld-277717
 then you will get
 
 ```
-(base) joetsai@thor:~/work/yulong/gae-demo$ gcloud app deploy --project=pixnet-research-lab
+(base) joetsai@thor:~/work/yulong/gae-demo$ gcloud app deploy --project=project-id
 Services to deploy:
 
 descriptor:      [/home/joetsai/work/yulong/gae-demo/app.yaml]
 source:          [/home/joetsai/work/yulong/gae-demo]
-target project:  [pixnet-research-lab]
+target project:  [project-id]
 target service:  [default]
 target version:  [20210427t231206]
-target url:      [https://pixnet-research-lab.df.r.appspot.com]
+target url:      [auto-created]
 
 ```
 
@@ -85,13 +85,13 @@ Beginning deployment of service [default]...
 File upload done.
 Updating service [default]...done.
 Setting traffic split for service [default]...done.
-Deployed service [default] to [https://pixnet-research-lab.df.r.appspot.com]
+Deployed service [default] to [...]
 
 You can stream logs from the command line by running:
   $ gcloud app logs tail -s default
 
 To view your application in the web browser run:
-  $ gcloud app browse --project=pixnet-research-lab
+  $ gcloud app browse --project=project-id
 ```
 
 3. You can check the service tab of `app engine` to monitor your services.

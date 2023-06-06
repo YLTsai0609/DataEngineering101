@@ -1,0 +1,29 @@
+# difference between v1 and apps/v1?
+# seletor
+# kubectl create -f 025_rp.yaml, kubectl apply -f 025_rp.yaml (update) or kube replace -f 025_rp.yaml
+# kubectl get replicaset
+# kubectl get pods
+# kubectl delete replicaset nyapp-relicaset (will also delete pods)
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myapp-replicaset
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+    spec:
+      containers:
+        - name: nginx-container
+          image: nginx
+  replicas: 6
+  selector:
+    matchLabels:
+      # could match a kety value structure
+      type: front-end
