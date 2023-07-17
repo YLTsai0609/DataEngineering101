@@ -44,3 +44,9 @@ To record some unique part about google bigquery
   * maximum 4000 partitions
   * could be full replace and filter by table decorators - `table$YYYYMMDD`, `table$PartKey`
 
+# Hive-Partitioning
+
+* if your data is stored by hive-partitioning .e.g `gs://basename/date=20230706`
+* by default, you sync `gs://basename/date=20230706/*.parquet`, the date column will be disappear.
+* or we could open the hive partition detection so that bq remember to add on the partition field
+* [reference](https://cloud.google.com/bigquery/docs/hive-partitioned-loads-gcs)

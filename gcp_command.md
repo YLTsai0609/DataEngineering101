@@ -101,6 +101,31 @@ https://console.cloud.google.com/compute/instancesDetail/zones/asia-east1-b/inst
 
 `gcloud compute`, `gcloud alpha compute`, `gcloud beta compute`
 
+# GCE Disk
+
+* You can increase the size of your persistent disk when your VM instance requires addtional storage space at any time, whether or not the disk is attatched to a running VM - [2023, Official Documents](https://cloud.google.com/compute/docs/disks/resize-persistent-disk)
+
+0. [if you need a mount a disk to VM](https://cloud.google.com/compute/docs/disks/add-persistent-disk?authuser=2&_ga=2.217153171.-483955003.1688136886&_gac=1.54141274.1688716552.CjwKCAjwzJmlBhBBEiwAEJyLu1X4nf6UdklvzSC4DUa9zXUf3As3RvqkqvPMZVfjD3UYkqCIG2XgvxoCC1cQAvD_BwE#formatting)
+  * `gcloud compute instances attach-disk INSTANCE_NAME --zone=ZONE --disk DISK_NAME`
+  * `gcloud compute disks describe DISK_NAME --zone=ZONE`
+  *  need to format it and mount it (need to check tha command carefully.)
+1. [best practice - creating a snapshot - UI 按一按就行](https://cloud.google.com/compute/docs/disks/create-snapshots)
+2. [increase disk size, resize the file system and partitions](https://cloud.google.com/compute/docs/disks/resize-persistent-disk)
+
+  * public image & boot-disk - just restart
+  * custom image & non-boot-disk - manually
+  * non-boot-disk
+3. [reattach if needed](https://cloud.google.com/compute/docs/disks/detach-reattach-boot-disk#gcloud)
+4. damage recovery if needed.
+
+# GCE IP 靜態 or 動態
+
+[直接看網頁](https://console.cloud.google.com/search;q=IP%20Address;searchScope=projects%2Fmedia17-1119;tab=all?authuser=2&project=media17-1119)
+
+# GCE Service Account
+
+* 如果沒有設定 Service Account - 透過環境變數， GCE 啟動時會自帶一把 Service Account，這在迭代開中可能會產生問題，建議換成對應的 stage / prod / dev 的 service account.
+
 ## GCE ssh trouble shooting
 
 GCE 可能會有防火牆設定，導致 ssh 無法進入

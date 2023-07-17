@@ -60,6 +60,8 @@
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
 
+[Computational Framework Survey](cf.md)
+
 ### Batch
 
 [Spark - installation](spark.md)
