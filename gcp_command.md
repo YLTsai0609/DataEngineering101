@@ -151,6 +151,8 @@ ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255]. See ht
   * 會要求輸入 --source-ranges : 被允許的機器ip
   * 也會要求輸入 -- allow tcp:XX : 被允許的 port
 
+### 開通防火牆
+
 `gcloud compute --project "project-id" firewall-rules create INSTANCE_NAME --source-ranges "111.222.333.444/24" --allow tcp:22`
 
 -- source-ranges 如果寫 0:0:0:0/0 表示都可以連
@@ -162,3 +164,4 @@ ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255]. See ht
 [GCP上建置 firewall 防火牆](https://ikala.cloud/gcp-firewall-waf/)
 
 [How to open a specific port such as 9090 in Google Compute Engine](https://stackoverflow.com/questions/21065922/how-to-open-a-specific-port-such-as-9090-in-google-compute-engine)
+

@@ -17,6 +17,12 @@
 
 兩邊需同時建立該服務(Peering) 才可進行網路通訊
 
+# Firewall
+
+* 請看 GCP command
+* 防火牆規則可單獨創立， GCE 會 apply network， network 中會包含數條防火牆規則
+* Today's TODO
+
 # Ref
 
 [GCP的雲端世界系列 第 6 篇 VPC (一)](https://ithelp.ithome.com.tw/articles/10262895)
