@@ -132,8 +132,6 @@
 
 [VPC](google_vpc.md)
 
-# BigData Algorithm
-
 [PubSub](pubsub.md)
 
 [Google Kubernetes Engine Introduction](gke/gke_intro.md)
