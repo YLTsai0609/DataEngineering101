@@ -72,3 +72,18 @@ https://www.rathishkumar.in/2023/03/joins-in-bigquery-broadcast-hash-nested-repe
   * could use CREATE OR REPLACE TABLE PARTITION BY ...
 
 [for more detail - Data definition language (DDL) statements in GoogleSQL](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#console)
+
+# Streaming Buffer
+
+<img src='./assets/bq_1.png'></img>
+
+1. realtime analytics -  可以即時寫入，可以立即查詢(看起來要特殊語法，而非單純的 select)
+
+2. 寫入效率 - BQ 的內部優化，讓 BQ backend 不會卡住
+
+3. 容錯性 - 確保資料不會丟失
+
+NOTE: 
+
+1. 看起來其實確實可以 SELECT streaming buffer，但可能會導致 IO 次數過多，且仍然要下 filter，不然網路傳輸時間還是很大
+2. 各大資料庫都有類似的設計

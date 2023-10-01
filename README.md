@@ -184,6 +184,8 @@
 
 [airflow 101](https://github.com/YLTsai0609/airflow_101)
 
+[other python scheduler](py_scheduler.md)
+
 # Crawler
 
 ## Coding stuff
