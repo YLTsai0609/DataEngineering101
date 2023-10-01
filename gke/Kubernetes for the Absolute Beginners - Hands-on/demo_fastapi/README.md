@@ -1,3 +1,6 @@
+# service design
+
+<img src='../assets/serviceSummary_6.png'></img>
 # Ref
 [here](https://sumanta9090.medium.com/deploying-a-fastapi-application-on-kubernetes-a-step-by-step-guide-for-production-d74faac4ca36)
 
@@ -31,7 +34,7 @@ final verify command : `docker run --rm -p 8080:80 yltsai0609/fastapi`
 
 create a file `deployment.yaml`
 
-`kubectl apply -f service.yaml`
+`kubectl apply -f deployment.yaml`
 
 could use `kubectl get deployment` and `kubectl describe deployment myapp` to check the status of your deployment
 
