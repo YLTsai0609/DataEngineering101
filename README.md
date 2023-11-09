@@ -84,6 +84,8 @@
 
 [realtime mvp for recommendation from Chip Huyen](realtime_mvp_i2i.md)
 
+[Cloud Logging](gcp_logging.md)
+
 ## Pipeline Management (ETL Management)
 
 [data piepline 101 - I - mirroring](mirroring.md)
