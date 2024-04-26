@@ -206,7 +206,7 @@
 
 [sync tables from database](sync_tables.md)
 
-[partitioning strategy](part_sta.md)
+[Primary Key, Index and Partition](part_sta.md)
 
 # CI/CD
 
