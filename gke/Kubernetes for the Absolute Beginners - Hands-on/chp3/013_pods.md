@@ -2,7 +2,7 @@
 
 https://www.udemy.com/course/learn-kubernetes/learn/lecture/9723226#overview
 
-# Pod - Songle Container in the Pod
+# Pod - Single Container in the Pod
 
 <img src='../assets/013_1.png'></img>
 

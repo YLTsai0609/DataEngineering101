@@ -44,3 +44,46 @@ To record some unique part about google bigquery
   * maximum 4000 partitions
   * could be full replace and filter by table decorators - `table$YYYYMMDD`, `table$PartKey`
 
+# Hive-Partitioning
+
+* if your data is stored by hive-partitioning .e.g `gs://basename/date=20230706`
+* by default, you sync `gs://basename/date=20230706/*.parquet`, the date column will be disappear.
+* or we could open the hive partition detection so that bq remember to add on the partition field
+* [reference](https://cloud.google.com/bigquery/docs/hive-partitioned-loads-gcs)
+
+
+# Physical bytes and Logical bytes
+
+* cost saving - logical is cheaper than pysical (2x)
+* logical table size which is **uncompressed bytes** (aka logical bytes). 
+* pysical bytes (compressed, store on disk) - If you switch to physical billing model, then you will be charged for actual bytes stored in the disk which can be much smaller than the uncompressed bytes.
+
+
+# How to check the query plan(to check the broadcast hash join is used)
+
+https://www.rathishkumar.in/2023/03/joins-in-bigquery-broadcast-hash-nested-repeated-best-practices.html
+
+
+# Data definition language statement (DDL)
+
+* to create and modify bigquery resource / create / alter / delete for tables / table clones / table snapshot / views / user-defined functions / and row-level access policies
+
+* CREATE TABLE / CREATE TABLE AS (sql) / CREATE VIEW / DROP TABLE / DROP VIEW
+  * could use CREATE OR REPLACE TABLE PARTITION BY ...
+
+[for more detail - Data definition language (DDL) statements in GoogleSQL](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#console)
+
+# Streaming Buffer
+
+<img src='./assets/bq_1.png'></img>
+
+1. realtime analytics -  可以即時寫入，可以立即查詢(看起來要特殊語法，而非單純的 select)
+
+2. 寫入效率 - BQ 的內部優化，讓 BQ backend 不會卡住
+
+3. 容錯性 - 確保資料不會丟失
+
+NOTE: 
+
+1. 看起來其實確實可以 SELECT streaming buffer，但可能會導致 IO 次數過多，且仍然要下 filter，不然網路傳輸時間還是很大
+2. 各大資料庫都有類似的設計

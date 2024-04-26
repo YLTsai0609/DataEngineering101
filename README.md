@@ -60,6 +60,8 @@
 
 [Lambda and Kappa Architecture](lambda_kappa.md)
 
+[Computational Framework Survey](cf.md)
+
 ### Batch
 
 [Spark - installation](spark.md)
@@ -81,6 +83,8 @@
 [case study - near realtime arct for recommender in LinkedIn](arct_linkedin.md)
 
 [realtime mvp for recommendation from Chip Huyen](realtime_mvp_i2i.md)
+
+[Cloud Logging](gcp_logging.md)
 
 ## Pipeline Management (ETL Management)
 
@@ -129,8 +133,6 @@
 [Google Kubernetes Getting Start](gke_getting_start.md)
 
 [VPC](google_vpc.md)
-
-# BigData Algorithm
 
 [PubSub](pubsub.md)
 
@@ -183,6 +185,8 @@
 # Workflow Scheduling
 
 [airflow 101](https://github.com/YLTsai0609/airflow_101)
+
+[other python scheduler](py_scheduler.md)
 
 # Crawler
 
