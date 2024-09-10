@@ -52,7 +52,7 @@
 
 [OLTP vs OLAP (database vs data warehouse)](dw.md)
 
-[Dimentional Modeling](dm.md)
+[Dimentional Modeling (Star Schema)](dm.md)
 
 [date warehouse, datalake, datamesh and other buzzyword](dw_dl.md)
 
@@ -107,8 +107,6 @@
 [data pipeline 101 - IIX - etl development](etldev.md)
 
 [schema-changable system](schema_change.md)
-
-[data modeling](data_model.md)
 
 ## Data Goverance
 
